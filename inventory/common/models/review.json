@@ -1,0 +1,29 @@
+{
+  "name": "review",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date"
+    },
+    "reviewer_name": {
+      "type": "string"
+    },
+    "reviewer_email": {
+      "type": "string"
+    },
+    "coment": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,556 @@
+npn i -s loopback-connector-mongodb
+
+
+E:\CMA_PROJECT\Sample_Inventory_application>apic loopback
+? What's the name of your application? inventory
+? Enter name of the directory to contain the project: inventory
+? Which version of LoopBack would you like to use? 3.x (current)
+? What kind of application do you have in mind? empty-server
+    Created package.json
+    Created server
+    Created server/boot
+    Created server/boot/root.js
+    Created server/config.json
+    Created server/datasources.json
+    Created server/middleware.development.json
+    Created server/middleware.json
+    Created server/model-config.json
+    Created server/server.js
+
+
+Running npm install for you to install the required dependencies. If this fails, try running the command yourself.
+
+npm WARN deprecated nodemailer@2.7.2: All versions below 4.0.1 of Nodemailer are deprecated. See https://nodemailer.com/status/
+npm WARN deprecated mailcomposer@4.0.1: This project is unmaintained
+npm WARN deprecated socks@1.1.9: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+npm WARN deprecated buildmail@4.0.1: This project is unmaintained
+npm notice created a lockfile as package-lock.json. You should commit this file.
+added 512 packages in 100.542s
+child process npm install exited with code 0
+
+Updating swagger and product definitions
+Created E:\CMA_PROJECT\Sample_Inventory_application\inventory\definitions\inventory.yaml swagger description
+Created inventory-product.yaml product definition [inventory:1.0.0]
+
+Next steps:
+
+  Change directory to your app
+    $ cd E:\CMA_PROJECT\Sample_Inventory_application\inventory
+
+  Create a model in your app
+    $ apic create --type model
+
+  Compose your API, run, manage, enforce and deploy it with API Connect
+    $ apic edit
+
+  Run the app
+    $ apic start
+
+
+E:\CMA_PROJECT\Sample_Inventory_application>npn i -s loopback-connector-mongodb
+'npn' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+E:\CMA_PROJECT\Sample_Inventory_application>cd inventory
+
+E:\CMA_PROJECT\Sample_Inventory_application\inventory>apic edit
+Express server listening on http://127.0.0.1:9000
+loopback deprecated loopback#context middleware is deprecated. See https://docs.strongloop.com/display/APIC/Using%20current%20context for more details. C:\Users\Kundan\AppData\Roaming\npm\node_modules
+\apiconnect\node_modules\loopback\server\middleware\rest.js:60:32
+
+----------------
+
+E:\CMA_PROJECT\Sample_Inventory_application>apic loopback
+? What's the name of your application? inventory
+? Enter name of the directory to contain the project: inventory
+? Which version of LoopBack would you like to use? 3.x (current)
+? What kind of application do you have in mind? empty-server
+    Created package.json
+    Created server
+    Created server/boot
+    Created server/boot/root.js
+    Created server/config.json
+    Created server/datasources.json
+    Created server/middleware.development.json
+    Created server/middleware.json
+    Created server/model-config.json
+    Created server/server.js
+
+
+Running npm install for you to install the required dependencies. If this fails, try running the command yourself.
+
+npm WARN deprecated nodemailer@2.7.2: All versions below 4.0.1 of Nodemailer are deprecated. See https://nodemailer.com/status/
+npm WARN deprecated mailcomposer@4.0.1: This project is unmaintained
+npm WARN deprecated socks@1.1.9: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+npm WARN deprecated buildmail@4.0.1: This project is unmaintained
+npm notice created a lockfile as package-lock.json. You should commit this file.
+added 512 packages in 100.542s
+child process npm install exited with code 0
+
+Updating swagger and product definitions
+Created E:\CMA_PROJECT\Sample_Inventory_application\inventory\definitions\inventory.yaml swagger description
+Created inventory-product.yaml product definition [inventory:1.0.0]
+
+Next steps:
+
+  Change directory to your app
+    $ cd E:\CMA_PROJECT\Sample_Inventory_application\inventory
+
+  Create a model in your app
+    $ apic create --type model
+
+  Compose your API, run, manage, enforce and deploy it with API Connect
+    $ apic edit
+
+  Run the app
+    $ apic start
+
+
+E:\CMA_PROJECT\Sample_Inventory_application>npn i -s loopback-connector-mongodb
+'npn' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\CMA_PROJECT\Sample_Inventory_application>npm i -s loopback-connector-mongodb
++ loopback-connector-mongodb@3.4.4
+added 120 packages in 9.22s
+
+E:\CMA_PROJECT\Sample_Inventory_application>epic edit
+'epic' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\CMA_PROJECT\Sample_Inventory_application>apic edit
+Express server listening on http://127.0.0.1:9000
+loopback deprecated loopback#context middleware is deprecated. See https://docs.strongloop.com/display/APIC/Using%20current%20context for more details. C:\Users\Kundan\AppData\Roaming\npm\node_modules
+\apiconnect\node_modules\loopback\server\middleware\rest.js:60:32
+^CTerminate batch job (Y/N)? y
+
+E:\CMA_PROJECT\Sample_Inventory_application>cd inventory
+
+E:\CMA_PROJECT\Sample_Inventory_application\inventory>apic edit
+Express server listening on http://127.0.0.1:9000
+loopback deprecated loopback#context middleware is deprecated. See https://docs.strongloop.com/display/APIC/Using%20current%20context for more details. C:\Users\Kundan\AppData\Roaming\npm\node_modules
+\apiconnect\node_modules\loopback\server\middleware\rest.js:60:32
+
+Updating swagger and product definitions
+Created E:\CMA_PROJECT\Sample_Inventory_application\inventory\definitions\inventory.yaml swagger description
+
+Updating swagger and product definitions
+Created E:\CMA_PROJECT\Sample_Inventory_application\inventory\definitions\inventory.yaml swagger description
+
+Updating swagger and product definitions
+Created E:\CMA_PROJECT\Sample_Inventory_application\inventory\definitions\inventory.yaml swagger description
+
+Updating swagger and product definitions
+Created E:\CMA_PROJECT\Sample_Inventory_application\inventory\definitions\inventory.yaml swagger description
+
+Updating swagger and product definitions
+Created E:\CMA_PROJECT\Sample_Inventory_application\inventory\definitions\inventory.yaml swagger description
+
+Updating swagger and product definitions
+Created E:\CMA_PROJECT\Sample_Inventory_application\inventory\definitions\inventory.yaml swagger description
+^CTerminate batch job (Y/N)? y
+
+E:\CMA_PROJECT\Sample_Inventory_application\inventory>apic create --type model
+? Enter the model name: review
+? Select the data-source to attach review to: mongo (mongodb)
+? Select model's base class PersistedModel
+? Expose review via the REST API? No
+? Common model or server only? common
+Let's add some review properties now.
+
+Enter an empty property name when done.
+? Property name: date
+   invoke   loopback:property
+? Property type: date
+? Required? No
+? Default value[leave blank for none]:
+
+Let's add another review property.
+Enter an empty property name when done.
+? Property name: reviewer_name
+   invoke   loopback:property
+? Property type: string
+? Required? No
+? Default value[leave blank for none]:
+
+Let's add another review property.
+Enter an empty property name when done.
+? Property name: reviewer_email
+   invoke   loopback:property
+? Property type: string
+? Required? No
+? Default value[leave blank for none]:
+
+Let's add another review property.
+Enter an empty property name when done.
+? Property name: coment
+   invoke   loopback:property
+? Property type: string
+? Required? No
+? Default value[leave blank for none]:
+
+Let's add another review property.
+Enter an empty property name when done.
+? Property name: rating
+   invoke   loopback:property
+? Property type: number
+? Required? No
+? Default value[leave blank for none]:
+
+Let's add another review property.
+Enter an empty property name when done.
+? Property name:
+Done running LoopBack generator
+
+Updating swagger and product definitions
+Created E:\CMA_PROJECT\Sample_Inventory_application\inventory\definitions\inventory.yaml swagger description
+
+E:\CMA_PROJECT\Sample_Inventory_application\inventory>
+E:\CMA_PROJECT\Sample_Inventory_application\inventory>
+
+
+E:\CMA_PROJECT\Sample_Inventory_application\inventory>apic loopback:relation
+? Select the model to create the relationship from: item
+? Relation type: has many
+? Choose a model to create a relationship with: review
+? Enter the property name for the relation: reviews
+? Optionally enter a custom foreign key:
+? Require a through model? No
+Done running LoopBack generator
+
+Updating swagger and product definitions
+Created E:\CMA_PROJECT\Sample_Inventory_application\inventory\definitions\inventory.yaml swagger description
+
+E:\CMA_PROJECT\Sample_Inventory_application\inventory>
+
+
+
+E:\CMA_PROJECT\Sample_Inventory_application\inventory>apic loopback:relation
+? Select the model to create the relationship from: item
+? Relation type: has many
+? Choose a model to create a relationship with: review
+? Enter the property name for the relation: reviews
+? Optionally enter a custom foreign key:
+? Require a through model? No
+Done running LoopBack generator
+
+Updating swagger and product definitions
+Created E:\CMA_PROJECT\Sample_Inventory_application\inventory\definitions\inventory.yaml swagger description
+
+E:\CMA_PROJECT\Sample_Inventory_application\inventory>apic edit
+Express server listening on http://127.0.0.1:9000
+loopback deprecated loopback#context middleware is deprecated. See https://docs.strongloop.com/display/APIC/Using%20current%20context for more details. C:\Users\Kundan\AppData\Roaming\npm\node_modules
+\apiconnect\node_modules\loopback\server\middleware\rest.js:60:32
+^CTerminate batch job (Y/N)? apic edit
+Terminate batch job (Y/N)? Y
+
+E:\CMA_PROJECT\Sample_Inventory_application\inventory>epic edit
+'epic' is not recognized as an internal or external command,
+operable program or batch file.
+
+E:\CMA_PROJECT\Sample_Inventory_application\inventory>apic edit
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------- RESPECTIVE GITHUB ------------------------------------------------------------------------------------------------
+        new file:   node_modules/readable-stream/readable-browser.js
+        new file:   node_modules/readable-stream/readable.js
+        new file:   node_modules/readable-stream/transform.js
+        new file:   node_modules/readable-stream/writable-browser.js
+        new file:   node_modules/readable-stream/writable.js
+        new file:   node_modules/regenerator-runtime/README.md
+        new file:   node_modules/regenerator-runtime/package.json
+        new file:   node_modules/regenerator-runtime/path.js
+        new file:   node_modules/regenerator-runtime/runtime-module.js
+        new file:   node_modules/regenerator-runtime/runtime.js
+        new file:   node_modules/require_optional/.npmignore
+        new file:   node_modules/require_optional/.travis.yml
+        new file:   node_modules/require_optional/HISTORY.md
+        new file:   node_modules/require_optional/LICENSE
+        new file:   node_modules/require_optional/README.md
+        new file:   node_modules/require_optional/index.js
+        new file:   node_modules/require_optional/package.json
+        new file:   node_modules/require_optional/test/nestedTest/index.js
+        new file:   node_modules/require_optional/test/nestedTest/package.json
+        new file:   node_modules/require_optional/test/require_optional_tests.js
+        new file:   node_modules/resolve-from/index.js
+        new file:   node_modules/resolve-from/license
+        new file:   node_modules/resolve-from/package.json
+        new file:   node_modules/resolve-from/readme.md
+        new file:   node_modules/rimraf/AUTHORS
+        new file:   node_modules/rimraf/LICENSE
+        new file:   node_modules/rimraf/README.md
+        new file:   node_modules/rimraf/bin.js
+        new file:   node_modules/rimraf/package.json
+        new file:   node_modules/rimraf/rimraf.js
+        new file:   node_modules/rimraf/test/run.sh
+        new file:   node_modules/rimraf/test/setup.sh
+        new file:   node_modules/rimraf/test/test-async.js
+        new file:   node_modules/rimraf/test/test-sync.js
+        new file:   node_modules/safe-buffer/LICENSE
+        new file:   node_modules/safe-buffer/README.md
+        new file:   node_modules/safe-buffer/index.d.ts
+        new file:   node_modules/safe-buffer/index.js
+        new file:   node_modules/safe-buffer/package.json
+        new file:   node_modules/safer-buffer/LICENSE
+        new file:   node_modules/safer-buffer/Porting-Buffer.md
+        new file:   node_modules/safer-buffer/Readme.md
+        new file:   node_modules/safer-buffer/dangerous.js
+        new file:   node_modules/safer-buffer/package.json
+        new file:   node_modules/safer-buffer/safer.js
+        new file:   node_modules/safer-buffer/tests.js
+        new file:   node_modules/semver/LICENSE
+        new file:   node_modules/semver/README.md
+        new file:   node_modules/semver/bin/semver
+        new file:   node_modules/semver/package.json
+        new file:   node_modules/semver/range.bnf
+        new file:   node_modules/semver/semver.js
+        new file:   node_modules/shebang-command/index.js
+        new file:   node_modules/shebang-command/license
+        new file:   node_modules/shebang-command/package.json
+        new file:   node_modules/shebang-command/readme.md
+        new file:   node_modules/shebang-regex/index.js
+        new file:   node_modules/shebang-regex/license
+        new file:   node_modules/shebang-regex/package.json
+        new file:   node_modules/shebang-regex/readme.md
+        new file:   node_modules/signal-exit/CHANGELOG.md
+        new file:   node_modules/signal-exit/LICENSE.txt
+        new file:   node_modules/signal-exit/README.md
+        new file:   node_modules/signal-exit/index.js
+        new file:   node_modules/signal-exit/package.json
+        new file:   node_modules/signal-exit/signals.js
+        new file:   node_modules/sprintf-js/.npmignore
+        new file:   node_modules/sprintf-js/LICENSE
+        new file:   node_modules/sprintf-js/README.md
+        new file:   node_modules/sprintf-js/bower.json
+        new file:   node_modules/sprintf-js/demo/angular.html
+        new file:   node_modules/sprintf-js/dist/angular-sprintf.min.js
+        new file:   node_modules/sprintf-js/dist/angular-sprintf.min.js.map
+        new file:   node_modules/sprintf-js/dist/angular-sprintf.min.map
+        new file:   node_modules/sprintf-js/dist/sprintf.min.js
+        new file:   node_modules/sprintf-js/dist/sprintf.min.js.map
+        new file:   node_modules/sprintf-js/dist/sprintf.min.map
+        new file:   node_modules/sprintf-js/gruntfile.js
+        new file:   node_modules/sprintf-js/package.json
+        new file:   node_modules/sprintf-js/src/angular-sprintf.js
+        new file:   node_modules/sprintf-js/src/sprintf.js
+        new file:   node_modules/sprintf-js/test/test.js
+        new file:   node_modules/stable/README.md
+        new file:   node_modules/stable/index.d.ts
+        new file:   node_modules/stable/package.json
+        new file:   node_modules/stable/stable.js
+        new file:   node_modules/stable/stable.min.js
+        new file:   node_modules/string_decoder/.travis.yml
+        new file:   node_modules/string_decoder/LICENSE
+        new file:   node_modules/string_decoder/README.md
+        new file:   node_modules/string_decoder/lib/string_decoder.js
+        new file:   node_modules/string_decoder/package.json
+        new file:   node_modules/strip-eof/index.js
+        new file:   node_modules/strip-eof/license
+        new file:   node_modules/strip-eof/package.json
+        new file:   node_modules/strip-eof/readme.md
+        new file:   node_modules/strong-globalize/.eslintignore
+        new file:   node_modules/strong-globalize/.eslintrc
+        new file:   node_modules/strong-globalize/.jscsrc
+        new file:   node_modules/strong-globalize/.nsprc
+        new file:   node_modules/strong-globalize/CHANGES.md
+        new file:   node_modules/strong-globalize/LICENSE.md
+        new file:   node_modules/strong-globalize/README.md
+        new file:   node_modules/strong-globalize/_config.yml
+        new file:   node_modules/strong-globalize/benchmark/data/loopback-sample-messages.json
+        new file:   node_modules/strong-globalize/benchmark/format.js
+        new file:   node_modules/strong-globalize/bin/slt-globalize.js
+        new file:   node_modules/strong-globalize/bin/slt-globalize.txt
+        new file:   node_modules/strong-globalize/browser.js
+        new file:   node_modules/strong-globalize/cldr/cldr_29.0.1.json
+        new file:   node_modules/strong-globalize/examples/gmain/index.js
+        new file:   node_modules/strong-globalize/examples/gmain/intl/en/messages.json
+        new file:   node_modules/strong-globalize/examples/gmain/intl/zz/messages.json
+        new file:   node_modules/strong-globalize/examples/gmain/intl/zz/messages_inverted.json
+        new file:   node_modules/strong-globalize/examples/gmain/package.json
+        new file:   node_modules/strong-globalize/examples/gsub/index.js
+        new file:   node_modules/strong-globalize/examples/gsub/intl/en/help.txt
+        new file:   node_modules/strong-globalize/examples/gsub/intl/en/messages.json
+        new file:   node_modules/strong-globalize/examples/gsub/intl/zz/messages.json
+        new file:   node_modules/strong-globalize/examples/gsub/intl/zz/messages_inverted.json
+        new file:   node_modules/strong-globalize/examples/gsub/lib/util.js
+        new file:   node_modules/strong-globalize/examples/gsub/package.json
+        new file:   node_modules/strong-globalize/index.js
+        new file:   node_modules/strong-globalize/index.md
+        new file:   node_modules/strong-globalize/lib/extract.js
+        new file:   node_modules/strong-globalize/lib/globalize.js
+        new file:   node_modules/strong-globalize/lib/helper.js
+        new file:   node_modules/strong-globalize/lib/lint.js
+        new file:   node_modules/strong-globalize/lib/translate.js
+        new file:   node_modules/strong-globalize/package.json
+        new file:   node_modules/strong-globalize/util/README.md
+        new file:   node_modules/strong-globalize/util/app.js
+        new file:   node_modules/strong-globalize/util/package.json
+        new file:   node_modules/swagger-client/LICENSE
+        new file:   node_modules/swagger-client/README.md
+        new file:   node_modules/swagger-client/dist/index.js
+        new file:   node_modules/swagger-client/package.json
+        new file:   node_modules/url/.npmignore
+        new file:   node_modules/url/.travis.yml
+        new file:   node_modules/url/.zuul.yml
+        new file:   node_modules/url/LICENSE
+        new file:   node_modules/url/README.md
+        new file:   node_modules/url/package.json
+        new file:   node_modules/url/test.js
+        new file:   node_modules/url/url.js
+        new file:   node_modules/url/util.js
+        new file:   node_modules/utf8-bytes/.travis.yml
+        new file:   node_modules/utf8-bytes/LICENSE
+        new file:   node_modules/utf8-bytes/example/bytes.js
+        new file:   node_modules/utf8-bytes/index.js
+        new file:   node_modules/utf8-bytes/package.json
+        new file:   node_modules/utf8-bytes/readme.markdown
+        new file:   node_modules/utf8-bytes/test/bytes.js
+        new file:   node_modules/utfstring/CHANGELOG.md
+        new file:   node_modules/utfstring/LICENSE
+        new file:   node_modules/utfstring/README.md
+        new file:   node_modules/utfstring/package.json
+        new file:   node_modules/utfstring/spec/bytes_to_string_spec.js
+        new file:   node_modules/utfstring/spec/char_at_spec.js
+        new file:   node_modules/utfstring/spec/char_code_at_spec.js
+        new file:   node_modules/utfstring/spec/code_points_to_string_spec.js
+        new file:   node_modules/utfstring/spec/find_byte_index_spec.js
+        new file:   node_modules/utfstring/spec/find_char_index_spec.js
+        new file:   node_modules/utfstring/spec/from_char_code_spec.js
+        new file:   node_modules/utfstring/spec/index_of_spec.js
+        new file:   node_modules/utfstring/spec/last_index_of_spec.js
+        new file:   node_modules/utfstring/spec/length_spec.js
+        new file:   node_modules/utfstring/spec/slice_spec.js
+        new file:   node_modules/utfstring/spec/string_to_bytes_spec.js
+        new file:   node_modules/utfstring/spec/string_to_char_array_spec.js
+        new file:   node_modules/utfstring/spec/string_to_code_points_spec.js
+        new file:   node_modules/utfstring/spec/substr_spec.js
+        new file:   node_modules/utfstring/spec/visual/char_at_spec.js
+        new file:   node_modules/utfstring/spec/visual/find_byte_index_spec.js
+        new file:   node_modules/utfstring/spec/visual/find_char_index_spec.js
+        new file:   node_modules/utfstring/spec/visual/index_of_spec.js
+        new file:   node_modules/utfstring/spec/visual/last_index_of_spec.js
+        new file:   node_modules/utfstring/spec/visual/length_spec.js
+        new file:   node_modules/utfstring/spec/visual/slice_spec.js
+        new file:   node_modules/utfstring/spec/visual/string_to_char_array_spec.js
+        new file:   node_modules/utfstring/spec/visual/substr_spec.js
+        new file:   node_modules/utfstring/tester.js
+        new file:   node_modules/utfstring/utfstring.js
+        new file:   node_modules/util-deprecate/History.md
+        new file:   node_modules/util-deprecate/LICENSE
+        new file:   node_modules/util-deprecate/README.md
+        new file:   node_modules/util-deprecate/browser.js
+        new file:   node_modules/util-deprecate/node.js
+        new file:   node_modules/util-deprecate/package.json
+        new file:   node_modules/uuid/.eslintrc.json
+        new file:   node_modules/uuid/AUTHORS
+        new file:   node_modules/uuid/CHANGELOG.md
+        new file:   node_modules/uuid/LICENSE.md
+        new file:   node_modules/uuid/README.md
+        new file:   node_modules/uuid/README_js.md
+        new file:   node_modules/uuid/bin/uuid
+        new file:   node_modules/uuid/index.js
+        new file:   node_modules/uuid/lib/bytesToUuid.js
+        new file:   node_modules/uuid/lib/md5-browser.js
+        new file:   node_modules/uuid/lib/md5.js
+        new file:   node_modules/uuid/lib/rng-browser.js
+        new file:   node_modules/uuid/lib/rng.js
+        new file:   node_modules/uuid/lib/sha1-browser.js
+        new file:   node_modules/uuid/lib/sha1.js
+        new file:   node_modules/uuid/lib/v35.js
+        new file:   node_modules/uuid/package.json
+        new file:   node_modules/uuid/v1.js
+        new file:   node_modules/uuid/v3.js
+        new file:   node_modules/uuid/v4.js
+        new file:   node_modules/uuid/v5.js
+        new file:   node_modules/whatwg-fetch/LICENSE
+        new file:   node_modules/whatwg-fetch/README.md
+        new file:   node_modules/whatwg-fetch/fetch.js
+        new file:   node_modules/whatwg-fetch/package.json
+        new file:   node_modules/which/CHANGELOG.md
+        new file:   node_modules/which/LICENSE
+        new file:   node_modules/which/README.md
+        new file:   node_modules/which/bin/which
+        new file:   node_modules/which/package.json
+        new file:   node_modules/which/which.js
+        new file:   node_modules/word-count/.npmignore
+        new file:   node_modules/word-count/.travis.yml
+        new file:   node_modules/word-count/Makefile
+        new file:   node_modules/word-count/Readme.md
+        new file:   node_modules/word-count/component.json
+        new file:   node_modules/word-count/index.js
+        new file:   node_modules/word-count/package.json
+        new file:   node_modules/word-count/test.js
+        new file:   node_modules/wrappy/LICENSE
+        new file:   node_modules/wrappy/README.md
+        new file:   node_modules/wrappy/package.json
+        new file:   node_modules/wrappy/wrappy.js
+        new file:   node_modules/xtend/.jshintrc
+        new file:   node_modules/xtend/.npmignore
+        new file:   node_modules/xtend/LICENCE
+        new file:   node_modules/xtend/Makefile
+        new file:   node_modules/xtend/README.md
+        new file:   node_modules/xtend/immutable.js
+        new file:   node_modules/xtend/mutable.js
+        new file:   node_modules/xtend/package.json
+        new file:   node_modules/xtend/test.js
+        new file:   node_modules/yallist/LICENSE
+        new file:   node_modules/yallist/README.md
+        new file:   node_modules/yallist/iterator.js
+        new file:   node_modules/yallist/package.json
+        new file:   node_modules/yallist/yallist.js
+        new file:   node_modules/yamljs/.npmignore
+        new file:   node_modules/yamljs/.travis.yml
+        new file:   node_modules/yamljs/Cakefile
+        new file:   node_modules/yamljs/LICENSE
+        new file:   node_modules/yamljs/README.md
+        new file:   node_modules/yamljs/bin/json2yaml
+        new file:   node_modules/yamljs/bin/yaml2json
+        new file:   node_modules/yamljs/bower.json
+        new file:   node_modules/yamljs/cli/json2yaml.js
+        new file:   node_modules/yamljs/cli/yaml2json.js
+        new file:   node_modules/yamljs/demo/demo.html
+        new file:   node_modules/yamljs/dist/yaml.debug.js
+        new file:   node_modules/yamljs/dist/yaml.js
+        new file:   node_modules/yamljs/dist/yaml.legacy.js
+        new file:   node_modules/yamljs/dist/yaml.min.js
+        new file:   node_modules/yamljs/index.js
+        new file:   node_modules/yamljs/lib/Dumper.js
+        new file:   node_modules/yamljs/lib/Escaper.js
+        new file:   node_modules/yamljs/lib/Exception/DumpException.js
+        new file:   node_modules/yamljs/lib/Exception/ParseException.js
+        new file:   node_modules/yamljs/lib/Exception/ParseMore.js
+        new file:   node_modules/yamljs/lib/Inline.js
+        new file:   node_modules/yamljs/lib/Parser.js
+        new file:   node_modules/yamljs/lib/Pattern.js
+        new file:   node_modules/yamljs/lib/Unescaper.js
+        new file:   node_modules/yamljs/lib/Utils.js
+        new file:   node_modules/yamljs/lib/Yaml.js
+        new file:   node_modules/yamljs/package.json
+        new file:   node_modules/yamljs/src/Dumper.coffee
+        new file:   node_modules/yamljs/src/Escaper.coffee
+        new file:   node_modules/yamljs/src/Exception/DumpException.coffee
+        new file:   node_modules/yamljs/src/Exception/ParseException.coffee
+        new file:   node_modules/yamljs/src/Exception/ParseMore.coffee
+        new file:   node_modules/yamljs/src/Inline.coffee
+        new file:   node_modules/yamljs/src/Parser.coffee
+        new file:   node_modules/yamljs/src/Pattern.coffee
+        new file:   node_modules/yamljs/src/Unescaper.coffee
+        new file:   node_modules/yamljs/src/Utils.coffee
+        new file:   node_modules/yamljs/src/Yaml.coffee
+        new file:   node_modules/yamljs/test/SpecRunner.html
+        new file:   node_modules/yamljs/test/lib/jasmine-2.0.0/MIT.LICENSE
+        new file:   node_modules/yamljs/test/lib/jasmine-2.0.0/boot.js
+        new file:   node_modules/yamljs/test/lib/jasmine-2.0.0/console.js
+        new file:   node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine-html.js
+        new file:   node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine.css
+        new file:   node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine.js
+        new file:   node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png
+        new file:   node_modules/yamljs/test/spec/YamlSpec.coffee
+        new file:   node_modules/yamljs/test/spec/YamlSpec.js
+        new file:   node_modules/yamljs/test/spec/example.yml
+        new file:   package-lock.json
+
+
+E:\CMA_PROJECT\Inventory_CI_CD_Implementation>

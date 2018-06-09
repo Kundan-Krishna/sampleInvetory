@@ -1,0 +1,26 @@
+product: 1.0.0
+info:
+  title: think
+  version: 1.0.0
+  name: think
+apis:
+  inventory:
+    $ref: inventory.yaml
+visibility:
+  view:
+    type: public
+  subscribe:
+    type: authenticated
+plans:
+  gold-plan:
+    title: Gold Plan
+    apis: {}
+    description: unlimited plan
+  silver:
+    title: Silver Plan
+    description: Default Plan
+    approval: false
+    rate-limits:
+      rate-limit-1:
+        value: 100/hour
+        hard-limit: true
